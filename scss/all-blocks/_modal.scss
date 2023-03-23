@@ -1,0 +1,114 @@
+.modal{
+    background: rgb(127, 126, 124, 0.5);
+    position: relative;
+    
+    &__2{
+        padding-bottom: 0;
+        margin-bottom: 0;
+        padding-top: 100px;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+}
+.header__2{
+    margin-top: 5px;
+}
+
+.plan__2{
+    margin-bottom: 160px;
+}
+
+.num__2{
+    margin-bottom: 5px;
+}
+
+.summary {
+    max-width: 540px;
+    width: 100%;
+    border-radius: 8px;  
+    position: absolute;  
+    left: 34.7%;
+    right: 0%;
+    top: 18.5%;
+    bottom: 0%;
+    z-index: 9999999;
+    
+    &__heading {
+        display: inline-block;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #FFFFFF;
+        padding: 40px 56px;
+        background: #333D4B;
+        width: 100%;
+        border-radius: 8px 8px 0px 0px;
+    }
+    
+    &__wrapper {
+        background: #FEFCF7;
+        padding: 56px;
+        border-radius:0px 0px 8px 8px;
+    }
+    
+    &__text {
+        max-width: 428px;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 40px;
+        color: #83888F;   
+        margin-bottom: 7px; 
+    }
+    
+    &__text-2 {
+        max-width: 428px;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: rgb(51, 61, 75, 0.8); 
+        margin-bottom: 47px;
+    }
+    
+    &__list {
+        width: 100%;
+    }
+    
+    &__item {
+        display: flex;
+        justify-content: center;
+    }
+    
+    &__item-cost {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px; 
+        color: #333D4B;
+        margin-right: 20px;
+    }
+}
+
+.btns__3{
+    max-width: 217px;
+    width: 100%;
+    padding: 16px 31px;
+    background: #0E8784;
+    border-radius: 6px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    border-color: #0E8784;
+    border: 0px;
+    cursor: pointer;
+}

@@ -1,0 +1,123 @@
+.footer {
+    margin-bottom: 88px;
+
+     @media only screen and (max-width:1100px) {
+        display: flex;
+    align-items: center;
+    }
+
+&__wrapper{
+    padding: 48px 86px;
+    background-color: #293039;
+    display: flex;
+    align-items: center;
+
+    @media only screen and (max-width:1100px) {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       padding: 54px 0;
+    }
+}
+
+
+&__logo-link{
+    display: inline-block;
+    margin-right: 103px;
+
+     @media only screen and (max-width:1100px) {
+        max-width: 217px;
+        margin-right: 0px;
+        margin-bottom: 33px;
+    }
+}
+
+.footer__logo-img{
+     @media only screen and (max-width:650px) {
+        max-width: 217px;
+    }
+    @media only screen and (max-width:400px) {
+        max-width: 217px;
+    }
+
+}
+
+&__logo{
+    @media only screen and (max-width:400px) {
+        max-width: 217px;
+    }
+}
+
+&__list{
+    display: flex;
+    align-items: center;
+
+    &__list:last-child{
+        margin-right: 0px;
+    }
+    @media only screen and (max-width:1100px) {
+        margin-bottom: 65px;
+    }
+
+    @media only screen and (max-width:400px) {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+}
+
+&__item{
+    margin-right: 33px;
+
+    &:nth-last-of-type(1){
+        margin-right: 0px;
+    }
+     @media only screen and (max-width:750px) {
+        margin-bottom: 24px;
+
+        &__item:last-child{
+            margin-bottom: 0px;
+        }
+
+         @media only screen and (max-width:11000px) {
+            margin-right: 0px;
+        }
+    }
+}
+
+&__item-link{
+    text-align: center;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+
+    @media only screen and (max-width:400px) {
+        margin-right: 0;
+        margin-bottom: 24px;
+    }
+}
+
+&__apps-list{
+    display: flex;
+    padding-left:288px;
+
+     @media only screen and (max-width:1100px) {
+        padding-left:0px;
+    }
+}
+
+&__apps-item{
+    margin-left: 24px;
+
+    &:nth-last-of-type(3){
+        margin-left: 0px;
+    }
+
+    
+}
+}

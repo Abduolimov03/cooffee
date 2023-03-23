@@ -1,0 +1,135 @@
+.construction {
+    margin-bottom: 200px;
+
+     @media only screen and (max-width:650px) {
+         margin-top: 160px;
+    }
+    
+    &__wrapper{
+        margin-left: 86px;
+        max-width: 1045px;
+        
+        @media only screen and (max-width:1000px) {
+            margin-left: 0px;
+            max-width: 689px;
+        }
+        
+        @media only screen and (max-width:750px) {
+            
+        }
+    }
+    
+    &__heading{
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+        margin-bottom: 95px;
+        
+        @media only screen and (max-width:750px) {
+            margin-bottom: 24px;   
+            text-align: center;
+            margin-top: 20px;
+        }
+    }
+    
+    &__row{
+        display: block;
+        
+        @media only screen and (max-width:750px) {
+            display: none;
+        }
+    }
+    
+    &__list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        @media only screen and (max-width:750px) {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+    
+    &__item{
+        max-width: 285px;
+        width: 100%;
+        position: relative;
+        padding-top: 98px;
+        
+        @media only screen and (max-width:1000px) {
+            max-width: 223px;
+            width: 100%;
+        }
+        
+        @media only screen and (max-width:750px) {
+            align-items: center;
+            max-width: 327px;
+            width: 100%;
+            padding-top: 56px;
+        }
+    }
+    
+    &__num{
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FDD6BA;
+        margin-bottom: 38px;
+        
+        @media only screen and (max-width:1000px) {
+            margin-bottom: 42px;
+        }
+
+         @media only screen and (max-width:750px) {
+            margin-bottom: 24px;
+        }
+    }
+    
+    &__heading2{
+        max-width: 255px;
+        width: 100%;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #333D4B;
+        margin-bottom: 42px;
+        
+        @media only screen and (max-width:1000px) {
+            font-size: 28px;
+            line-height: 32px;
+            margin-bottom: 38px;
+        }
+        
+        @media only screen and (max-width:750px) {
+            max-width: 327px;
+            margin-bottom: 24px;
+        }
+    }
+    
+    &__text{
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+        
+        @media only screen and (max-width:1000px) {
+            font-size: 15px;
+            line-height: 25px;
+        }
+        
+        @media only screen and (max-width:750px) {
+            
+        }
+    }
+}

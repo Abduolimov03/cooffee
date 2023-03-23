@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coffeeroasters</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__logo">
+                    <a class="header__logo-link" href="#">
+                        <img class="header__logo-img" src="./img/logo.svg" alt="background-image" width="236">
+                    </a>
+                    <button class="header__burger"></button>
+                </div>
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__item">
+                            <a class="header__item-link" href="./index.html" target="_blank">HOME</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__item-link" href="./about-us.html" target="_blank">ABOUT US</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__item-link" href="./create-plan.html" target="_blank">Create your plan</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <main class="main">
+        
+        <div class="container">
+            
+            <!-- hero -->
+            <section class="plan">
+                <div class="plan__wrapper">
+                    <h2 class="plan__heading headings">Create a plan</h2>
+                    <p class="plan__text  texts">Build a subscription plan that best fits your needs. We offer an assortment of the best artisan coffees from around the globe delivered fresh to your door.
+                </div>
+            </section>
+
+            <!--construction  -->
+            <section class="construction dark">
+                <div class="construction__wrapper">
+                    <img class="construction__row" src="./img/row2.png" alt="row">
+                    <ul class="construction__list">
+                        <li class="construction__item dark-item">
+                            <p class="construction__num dark-num">01
+                            <h2 class="construction__heading dark-heading ">Pick your coffee</h2>
+                            <p class="construction__text dark-text">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
+                        </li>
+                        <li class="construction__item dark-item">
+                            <p class="construction__num dark-num">02</p>
+                            <h2 class="construction__heading dark-heading">Choose the frequency</h2>
+                            <p class="construction__text dark-text">Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel your subscription with no commitment through our online portal.</p>
+                        </li>
+                        <li class="construction__item dark-item">
+                            <p class="construction__num dark-num">03</p>
+                            <h2 class="construction__heading dark-heading">Receive and enjoy!</h2>
+                            <p class="construction__text dark-text">We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class coffees curated to provide a distinct tasting experience.</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- choice -->
+
+            <!-- <section class="choice">
+                <div class="choice__wrapper-left">
+                    <ul class="choice__list">
+                        <li class="choice__item">
+                            <a class="choice__item-link" href="#">
+                                <span class="choice__item-num">01</span>
+                                Preferences
+                            </a>
+                        </li>
+                        <li class="choice__item">
+                            <a class="choice__item-link" href="#">
+                                <span class="choice__item-num">02</span>
+                                Bean Type
+                            </a>
+                        </li>
+                        <li class="choice__item">
+                            <a class="choice__item-link" href="#">
+                                <span class="choice__item-num">03</span>
+                                Quantity
+                            </a>
+                        </li>
+                        <li class="choice__item">
+                            <a class="choice__item-link" href="#">
+                                <span class="choice__item-num">04</span>
+                                Grind Option
+                            </a>
+                        </li>
+                        <li class="choice__item">
+                            <a class="choice__item-link" href="#">
+                                <span class="choice__item-num">05</span>
+                                Deliveries
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
+
+                <form class="choice__right" action="https://echo.htmlacademy.ru/" target="_blank">
+                    <ul class="choice__right-list">
+                        <li class="choice__list-item">
+                            <h3 class="choice__list-title">How do you drink your coffee?</h3>
+
+                            <ul class="choice__inner-list">
+                                <li class="choice__inner-item">
+                                    <label class="choice__inner-label">
+                                        <input class="choice__inner-input" type="radio" name="how-you-drink" value="Capsule">
+
+                                        <div class="choice__inner-wrapper">
+                                            <h4 class="choice__inner-heading">Capsule</h4>
+
+                                            <p class="choice__inner-text">
+                                                Compatible with Nespresso systems and similar brewers
+                                            </p>
+                                        </div>
+                                    </label>
+                                </li>
+                                
+                                <li class="choice__inner-item">
+                                    <label class="choice__inner-label">
+                                        <input class="choice__inner-input" type="radio" name="how-you-drink" value="Filter">
+
+                                        <div class="choice__inner-wrapper">
+                                            <h4 class="choice__inner-heading">Filter</h4>
+
+                                            <p class="choice__inner-text">
+                                                For pour over or drip methods like Aeropress, Chemex, and V60
+                                            </p>
+                                        </div>
+                                    </label>
+                                </li>
+
+                                <li class="choice__inner-item">
+                                    <label class="choice__inner-label">
+                                        <input class="choice__inner-input" type="radio" name="how-you-drink" value="Espresso">
+
+                                        <div class="choice__inner-wrapper">
+                                            <h4 class="choice__inner-heading">Espresso</h4>
+
+                                            <p class="choice__inner-text">
+                                                Dense and finely ground beans for an intense, flavorful experience
+                                            </p>
+                                        </div>
+                                    </label>
+                                </li>
+                            </ul>
+
+                        </li>
+
+                        <li class="choice__list-item">
+                            <h3 class="choice__list-title">What type of coffee?</h3>
+
+                            <ul class="choice__inner-list">
+                                <li class="choice__inner-item">
+                                    <label class="choice__inner-label">
+                                        <input class="choice__inner-input" type="radio" name="type-of-coffee" value="Capsule">
+
+                                        <div class="choice__inner-wrapper">
+                                            <h4 class="choice__inner-heading">Single Origin</h4>
+
+                                            <p class="choice__inner-text">
+                                                Distinct, high quality coffee from a specific family-owned farm
+                                            </p>
+                                        </div>
+                                    </label>
+                                </li>
+                                
+                                <li class="choice__inner-item">
+                                    <label class="choice__inner-label">
+                                        <input class="choice__inner-input" type="radio" name="type-of-coffee" value="Filter">
+
+                                        <div class="choice__inner-wrapper">
+                                            <h4 class="choice__inner-heading">Decaf</h4>
+
+                                            <p class="choice__inner-text">
+                                                Just like regular coffee, except the caffeine has been removed
+                                            </p>
+                                        </div>
+                                    </label>
+                                </li>
+
+                                <li class="choice__inner-item">
+                                    <label class="choice__inner-label">
+                                        <input class="choice__inner-input" type="radio" name="type-of-coffee" value="Espresso">
+
+                                        <div class="choice__inner-wrapper">
+                                            <h4 class="choice__inner-heading">Blended</h4>
+
+                                            <p class="choice__inner-text">
+                                                Combination of two or three dark roasted beans of organic coffees
+                                            </p>
+                                        </div>
+                                    </label>
+                                </li>
+                            </ul>
+
+                        </li>
+
+                        <li class="choice__list-item">
+                            <h3 class="choice__list-title">How much would you like?</h3>
+
+                            <ul class="choice__inner-list">
+                                <li class="choice__inner-item">
+                                    <label class="choice__inner-label">
+                                        <input class="choice__inner-input" type="radio" name="how-much-you-like" value="Capsule">
+
+                                        <div class="choice__inner-wrapper">
+                                            <h4 class="choice__inner-heading">250g</h4>
+
+                                            <p class="choice__inner-text">
+                                                Perfect for the solo drinker. Yields about 12 delicious cups.
+                                            </p>
+                                        </div>
+                                    </label>
+                                </li>
+                                
+                                <li class="choice__inner-item">
+                                    <label class="choice__inner-label">
+                                        <input class="choice__inner-input" type="radio" name="how-much-you-like" value="Filter">
+
+                                        <div class="choice__inner-wrapper">
+                                            <h4 class="choice__inner-heading">500g</h4>
+
+                                            <p class="choice__inner-text">
+                                                Perfect option for a couple. Yields about 40 delectable cups.
+                                            </p>
+                                        </div>
+                                    </label>
+                                </li>
+
+                                <li class="choice__inner-item">
+                                    <label class="choice__inner-label">
+                                        <input class="choice__inner-input" type="radio" name="how-much-you-like" value="Espresso">
+
+                                        <div class="choice__inner-wrapper">
+                                            <h4 class="choice__inner-heading">1000g</h4>
+
+                                            <p class="choice__inner-text">
+                                                Perfect for offices and events. Yields about 90 delightful cups.
+                                            </p>
+                                        </div>
+                                    </label>
+                                </li>
+                            </ul>
+
+                        </li>
+
+                        <li class="choice__list-item">
+                            <h3 class="choice__list-title">Want us to grind them?</h3>
+
+                            <ul class="choice__inner-list">
+                                <li class="choice__inner-item">
+                                    <label class="choice__inner-label">
+                                        <input class="choice__inner-input" type="radio" name="want-to-grind" value="Capsule">
+
+                                        <div class="choice__inner-wrapper">
+                                            <h4 class="choice__inner-heading">Wholebean</h4>
+
+                                            <p class="choice__inner-text">
+                                                Best choice if you cherish the full sensory experience
+                                            </p>
+                                        </div>
+                                    </label>
+                                </li>
+                                
+                                <li class="choice__inner-item">
+                                    <label class="choice__inner-label">
+                                        <input class="choice__inner-input" type="radio" name="want-to-grind" value="Filter">
+
+                                        <div class="choice__inner-wrapper">
+                                            <h4 class="choice__inner-heading">Filter</h4>
+
+                                            <p class="choice__inner-text">
+                                                For drip or pour-over coffee methods such as V60 or Aeropress
+                                            </p>
+                                        </div>
+                                    </label>
+                                </li>
+
+                                <li class="choice__inner-item">
+                                    <label class="choice__inner-label">
+                                        <input class="choice__inner-input" type="radio" name="want-to-grind" value="Espresso">
+
+                                        <div class="choice__inner-wrapper">
+                                            <h4 class="choice__inner-heading">Cafetiére</h4>
+
+                                            <p class="choice__inner-text">
+                                                Course ground beans specially suited for french press coffee
+                                            </p>
+                                        </div>
+                                    </label>
+                                </li>
+                            </ul>
+
+                        </li>
+
+                        <li class="choice__list-item">
+                            <h3 class="choice__list-title">How often should we deliver?</h3>
+
+                            <ul class="choice__inner-list">
+                                <li class="choice__inner-item">
+                                    <label class="choice__inner-label">
+                                        <input class="choice__inner-input" type="radio" name="how-often-delivered" value="Capsule">
+
+                                        <div class="choice__inner-wrapper">
+                                            <h4 class="choice__inner-heading">Every week</h4>
+
+                                            <p class="choice__inner-text">
+                                                $7.20 per shipment. Includes free first-class shipping.
+                                            </p>
+                                        </div>
+                                    </label>
+                                </li>
+                                
+                                <li class="choice__inner-item">
+                                    <label class="choice__inner-label">
+                                        <input class="choice__inner-input" type="radio" name="how-often-delivered" value="Filter">
+
+                                        <div class="choice__inner-wrapper">
+                                            <h4 class="choice__inner-heading">Every 2 weeks</h4>
+
+                                            <p class="choice__inner-text">
+                                                $9.60 per shipment. Includes free priority shipping.
+                                            </p>
+                                        </div>
+                                    </label>
+                                </li>
+
+                                <li class="choice__inner-item">
+                                    <label class="choice__inner-label">
+                                        <input class="choice__inner-input" type="radio" name="how-often-delivered" value="Espresso">
+
+                                        <div class="choice__inner-wrapper">
+                                            <h4 class="choice__inner-heading">Every month</h4>
+
+                                            <p class="choice__inner-text">
+                                                $12.00 per shipment. Includes free priority shipping.
+                                            </p>
+                                        </div>
+                                    </label>
+                                </li>
+                            </ul>
+
+                        </li>
+                    </ul>
+
+                    <section class="order">
+                        <div class="order__wrapper">
+                            <a href="./modal.html">
+                                <h4 class="order__heading">Order Summary</h4>
+                            </a>
+                            <p class="order__text">“I drink my coffee as <span class="unusual">Filter</span>, with a <span class="unusual">Decaf</span> type of bean. <span class="unusual">250g</span> ground ala <span class="unusual">Cafetiére</span>, sent to me <span class="unusual">Every Week</span>.”</p>
+                        </div>
+                    </section>
+
+                    <button class="btns btns__2">Create my plan!</button>
+                </form>
+            </section> -->
+        </div>   
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <a class="footer__logo-link" href="#">
+                    <img class="footer__logo-img"  src="./img/footer-logo.svg" alt="background__image" width="236">
+                </a>
+
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a class="footer__item-link" href="#">HOME</a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__item-link" href="#">ABOUT US</a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__item-link" href="#">Create your plan</a>
+                    </li>
+                </ul>
+
+                <ul class="footer__apps-list">
+                    <li class="footer__apps-item">
+                        <a class="footer__apps-item-link" href="https://www.facebook.com/" target="__blank">
+                            <img src="./img/facebook.svg" alt="facebook">
+                        </a>
+                    </li>
+                    <li class="footer__apps-item">
+                        <a class="footer__apps-item-link" href="https://twitter.com" target="__blank">
+                            <img src="./img/twitter.svg" alt="twitter">
+                        </a>
+                    </li>
+                    <li class="footer__apps-item">
+                        <a class="footer__apps-item-link" href="https://www.instagram.com" target="__blank">
+                            <img src="./img/insta.svg" alt="instagram">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>    

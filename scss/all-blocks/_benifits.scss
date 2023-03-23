@@ -1,0 +1,188 @@
+.benifits {
+    margin-top: 200px;
+    margin-bottom: 400px;
+
+     @media only screen and (max-width:1200px) {
+        margin-top: 144px;
+        margin-bottom: 144px;
+    }
+
+    @media only screen and (max-width:650px) {
+        margin-top: 120px;
+        margin-bottom: 120px;
+    }
+     @media only screen and (max-width:1000px) {
+        margin-top: 400px;
+        margin-bottom: 544px;
+    
+    }
+    
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #293039;
+        border-radius: 10px;
+        color: white;
+        padding-top: 100px;
+        padding-bottom: 286px;
+        position: relative;
+        background-position: top;
+        @media only screen and (max-width:1200px) {
+            padding: 56px 74px 356px 74px;
+        }
+
+         @media only screen and (max-width:650px) {
+            padding:64px 24px 600px 24px;
+        }
+    }
+    
+    &__heading {
+        font-family: 'Fraunces';
+        margin: 0;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+        color: #FEFCF7;
+        margin-bottom: 32px;
+
+        @media only screen and (max-width:1200px) {
+            font-size: 32px; 
+        }
+
+        @media only screen and (max-width:650px) {
+            font-size: 28px;
+            line-height: 28px;
+        }
+    }
+    
+    &__text {
+        max-width: 540px;
+        text-align: center;
+        font-weight: 400;
+        font-size: 16px;
+        color: rgb(254, 252, 247, 0.8);
+        line-height: 26px;
+        margin: 0;
+    }
+    
+    &__list {
+        display: flex;
+        justify-content: center;  
+        position: absolute;
+        bottom: 0;
+        transform: translate(0, 50%);
+        @media only screen and (max-width:1200px) {
+            flex-wrap: wrap;
+        }
+
+        @media only screen and (max-width:650px) {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+        }
+    }
+    
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #0E8784;
+        border-radius: 8px;
+        max-width: 350px;
+        margin-right: 30px;
+        padding: 72px 48px 48px 48px;
+        
+        &:nth-child(3){
+            margin-right: 0;
+        }
+        
+        @media only screen and (max-width:1200px) {
+            display: flex;
+            align-items: center;
+            max-width: 573px;
+            padding: 41px 48px 41px 70px;
+            flex-direction: row;
+            margin-bottom: 24px;
+            margin-right: 0;
+        }
+
+        @media only screen and (max-width:650px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 279px;
+            padding: 72px 12px 50px 12px;
+        }
+    }
+    
+    &__item-wrapper{
+        @media only screen and (max-width:1200px) {
+            width: 344px;
+        }
+
+         @media only screen and (max-width:650px) {
+            width: 212px;
+        }
+    }
+    
+    &__img{
+        width: 72px;
+        height: 72px;
+        object-fit: contain;
+        margin-bottom: 56px;
+        
+        @media only screen and (max-width:1200px) {
+            width: 56px;
+            height: 56px;
+            object-fit: contain;
+            margin-right: 55px;
+        }
+
+        @media only screen and (max-width:650px) {
+            width: 72px;
+            height: 72px;
+            object-fit: contain;
+            margin-right: 0px;
+        }
+    }
+    
+    &__heading2{
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #FEFCF7;
+        margin: 0;
+        margin-bottom: 24px;
+
+        @media only screen and (max-width:1200px) {
+            margin-bottom: 16px;
+            margin-top: 0px;
+        }
+
+        @media only screen and (max-width:650px) {
+            margin-bottom: 24px;
+        }
+    }
+    
+    &__text2 {
+        font-weight: 400;
+        color: #FEFCF7;
+        line-height: 26px;
+        font-size: 16px;
+        text-align: center;
+
+
+        @media only screen and (max-width:1200px) {
+            font-size: 15px;
+            line-height: 25px;
+        }
+
+        @media only screen and (max-width:650px) {
+            font-size: 15px;
+            line-height: 25px;
+        }
+    }
+}
